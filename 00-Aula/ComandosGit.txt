@@ -4,3 +4,14 @@ Comando para poder preparar as alterações para ir a próxima versão: git add
 Exite duas formas: git add "nome do arquivo ou pasta" ou git add . (esse segundo ele simpelsmente adiiconar todas as modificações para a próxima versão)
 
 comando para poder fazer commit (salvar), no repositório, os arquivos preparados pelo git add: git commit -m "nome do commit"
+
+comando para poder adicionar um repositório novo: git remote add origin "Link do seu repositório"
+
+comando pra poder subir os arquivos para o github: git push -u origin main
+
+Comando para poder configurar o git com email e usuário
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+Comando para poder verificar os comandos
+git config --list
