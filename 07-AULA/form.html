@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+        <label for="">
+            
+            <!-- FIELDSET: SEGMENTA VISUALMENTE O FORMULÁRIO -->
+            <fieldset>
+                <!-- LEGEND: DÁ O NOME AO SEGUIMENTO DO FORMULÁRIO -->
+                <legend> DADOS PESSOAIS</legend>
+
+                <!-- CAIXINHA DE NOME -->
+                <label for="nome completo">Nome completo</label>
+                <input type="text" name="nome completo" id="nome">
+                <!-- FIM CAIXINHA DE NOME -->
+                <br>
+                <br>
+                <!-- CAIXINHA DATA DE NASCIMENTO -->
+                 <label for="data de nascimento">Data de nascimento</label>
+                 <input type="date" name="data de nascimento" id="data de nascimento">
+
+                 <br>
+                 <br>
+                <!-- CAIXINHA DE DATA E TEMPO -->
+                 <label for="data e hora">Informe a data e hora de nascimento:</label>
+                 <input type="datetime-local" nome="data e hora" id="data e hora">
+                 <!-- FIM DA CAIXINHA DE DATA E TEMPO -->
+                 <br>
+                 <br>
+                 <!-- INICIO CAIXINHA DE TEMPO -->
+                  <label for="hora">informe a hora</label>
+                  <input type="time" nome="hora" id="hora">
+                  
+                  <br>
+                  <br>
+
+                  <!-- INICIO CAIXINHA DE NÚMERO -->
+                   <label for="filhos">quantidade de filhos</label>
+                   <input type="number" name="filhos" id="filhos" min="-3" max="7" step="0.7">
+            </fieldset>
+        </label>
+    </form>
+</body>
+</html>
