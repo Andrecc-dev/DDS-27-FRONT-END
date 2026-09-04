@@ -67,3 +67,72 @@ body {
     border-radius: 5px;
     background-color: #ede9fe;
 }
+
+div p {
+    color: blue;
+}
+
+.pai-direto > p {
+    color: green;
+    padding: 5px;
+}
+
+h3 + p {
+    color: red;
+    font-style: italic;
+}
+
+h4 ~ p {
+    color: orange;
+    background-color: #e4dede;
+    padding: 5px;
+    font-weight : bold; 
+}
+
+input[type="text"] {
+    border: 3px solid orange;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+a[href*="microsoft"] {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+h5, h6 {
+    color: purple;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.botao:hover {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+p.aviso {
+    background-color: #ffcc00;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#painel {
+    background-color: #ac8484;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#menu ul li a {
+    color: violet;
+    text-decoration: none;
+}
