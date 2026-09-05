@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: wheat;
+    height: 15000px;
+}
+
+.pai {
+    height: 200px;
+    width: 200px;
+}
+
+.filho {
+    height: 100px;
+    width: 100px;
+}
+
+/* * TIPO ESTÁTICO */
+
+#pai-estatico {
+    background-color: red;
+    position: static;
+}
+
+#fi-estatico {
+    background-color: blue;
+    position: static;
+}
+
+/* * TIPO FIXO * */
+#pai-fixo {
+    background-color: green;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+}
+
+#fi-fixo {
+    background-color: yellow;
+    
+}
+
+/* * TIPO GRUDADO (muito ciumento ta dd ) * */
+#pai-grudado {
+    background-color: purple;
+    height: 1200px;
+    width: 1000px;
+}
+
+#fi-grudado {
+    background-color: orange;
+    position: sticky;
+    top: 10px;
+    left: 15px;
+}
+
+/* *TIPO RELATIVO * */
+
+#pai-relativo {
+    background-color: lightblue;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#fi-relativo {
+    background-color: lightgreen;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+/* *TIPO ABSOLUTO COM PAI ESTATICO* */
+#pai-absoluto {
+    background-color: lightcoral;
+    position: static;
+}
+
+#fi-absoluto {
+    background-color: lightyellow;
+    position: absolute;
+    left: 500px;
+}
+
+/* *TIPO ABSOLUTO COM PAI NÃO ESTÁTIC* */
+#pai-absoluto-relativo {
+    background-color: lightseagreen;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#fi-absoluto-relativo {
+    background-color: lightpink;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
