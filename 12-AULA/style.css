@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* *font importadada pelo aruqivo baixado no navegador */
+@font-face {
+    font-family: "Outfity";
+    src: url(./fonts/Outfity.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    margin: 20px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Iosevka Charon Mono', monospace;
+    color: darkslategray;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.bloco {
+    background-color: lightgray;
+    border: 2px solid darkgray;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+p{
+    font-family: 'Outfity';
+    font-size: 16px;
+    color: black;
+}
+
+
+/* *Pseudo-classes* */
+
+a{
+    color: orange;
+}
+
+/* *Link não visitado */
+a:link{
+    text-decoration: none;
+    color: green;
+}
+
+/* *Link visitado */
+a:visited{
+    color: blue;
+}
+
+/* *Link ativo */
+a:active{
+    color: cyan;
+}
+
+/* *Link com mouse sobre */
+a:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    transform: scale(0.3,5);
+}
+
+button:active{
+    background-color: lightgreen;
+    color: black;
+    padding: 10px;
+    transform: rotate(90deg);
+    transition: 15s
+
+}
+
+/* *input com foco */
+input:focus{
+    outline: none;
+    border: 2px solid #ffdd00;
+    background-color: azure;
+}
+
+/* *input obrigatório */
+input:required{
+    border: 2px solid red;
+
+}
+
+/* *input válido */
+input:valid{
+    background-color: lightgreen;
+}
+
+input:invalid{
+    background-color: lightcoral;
+}
+
+input:checked{
+    accent-color: green;
+}
+
+
+/* *estila inputs desabilitados  */
+input:disabled{
+    background-color: lightgray;
+    color: gray;
+    cursor: not-allowed;
+}
+
+/* *seleciona o primeiro filho (vulgo primogênito) */
+.lista-exemplo li:first-child{
+    color: green;
+}
+
+/* *ultimo filho (vulgo rapo de tacho) */
+.lista-exemplo li:last-child{
+    font-weight: bold;
+    height : 30px;
+    background-image: linear-gradient(to right, lightblue, lightgreen);
+}
+
+/* *sorteando o filho */
+.lista-exemplo li:nth-child(2){
+    background-color: gold;
+}
