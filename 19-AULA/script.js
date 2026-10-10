@@ -79,4 +79,3 @@ console.log("o resultado da multiplication é: ", multiplicar(7,4));
 const dobro = numero => numero*2
 
 console.log("O dobro é: ", dobro(42));
-
